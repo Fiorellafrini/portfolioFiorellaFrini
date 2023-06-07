@@ -77,3 +77,24 @@
     }
   }
 }
+
+#skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#skills img {
+  width: 8rem;
+}
+
+#skills img:hover {
+  // animation: pulse infinite;
+  animation-duration: 1s;
+}
+
+#skills span {
+  text-align: center;
+  color: white;
+}
