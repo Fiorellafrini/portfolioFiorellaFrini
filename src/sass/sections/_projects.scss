@@ -52,7 +52,8 @@
      
 
     }
-
+   
+    
     &__image {
       width: 90%;
       margin: 0 auto;
@@ -139,7 +140,8 @@
   .mas:hover,
   .mas:focus{
     color: black;
-    background-color: #d3cccc;
+    background-color: #e7e7e7;
+    // text-decoration: none;
     cursor: pointer;
   }
 }
