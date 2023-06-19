@@ -1,7 +1,7 @@
 #projects {
   background-color: $white-color;
   color: $dark-blue-text;
-  margin-top: -10rem;
+  margin-top: -40rem;
   padding-top: 15rem;
 
   @include respond(tab-land) {
@@ -106,7 +106,9 @@
   // }
 
   .modal-content {
-    background-color: #fefefe;
+    background-color:
+    // #36cecc;
+     #c2e4cb;
     margin: 15% auto;
     padding: 20px;
     border: 3px solid #413e3e;
