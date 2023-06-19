@@ -88,21 +88,32 @@
   .modal {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.5);
+  
+    // opacity: 1; /* Agrega esta línea */
+    // transition: opacity 3s ease; /* Agrega esta línea */
   }
+
+  // .modal.mostrar {
+  //   opacity: 1; /* Al agregar la clase "mostrar", la modal se muestra */
+  // }
 
   .modal-content {
     background-color: #fefefe;
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 3px solid #413e3e;
     width: 80%;
+    height:fit-content;
+    color: black;
+    font-size: 14px;
+
   }
 
   .cerrar {
@@ -120,4 +131,15 @@
     cursor: pointer;
   }
   
+  .mas{
+    border: none;
+    font-size: 13px;
+  }
+
+  .mas:hover,
+  .mas:focus{
+    color: black;
+    background-color: #d3cccc;
+    cursor: pointer;
+  }
 }

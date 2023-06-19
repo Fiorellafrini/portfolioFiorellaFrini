@@ -34,6 +34,11 @@
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
     ></script>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animated-modal.js/dist/animatedModal.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/animated-modal.js/dist/animatedModal.min.js"></script>
+    
+
+
     <!-- Todo: remove the below script once you finish your portfolio -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
@@ -175,7 +180,8 @@
                       Nodemailer, CSS, Borrado lógico, Dashboard, Railway,
                       Vercel, SweetAlert, PosgretSql ,Sequelize.
                   </p>
-                  <button onclick="mostrarModal()"> + Ver más</button>
+                  <button class="mas" onclick="mostrarModal()"> + Ver más</button>
+                  <br></br>
                 </div>
 
                 <div class="modal" id="modal">
@@ -183,24 +189,25 @@
                     <span class="cerrar" onclick="cerrarModal()">&times;</span>
                     <p class="mb-4">
                     
-                      <!-- texto completo -->
-                      <h2>La página web es capaz de: </h2>
+                      <h2>La página web The Wave es capaz de: </h2>
+                      <br></br>
                         <li>Explorar
                         una amplia variedad de productos náuticos como tablas de
                         surf, stand up paddle, wakeboard, aletas, trajes de
-                        neopreno, leash y otros accesorios</li>
-                        <li>Filtrar los productos por
+                        neopreno, leash y otros accesorios.</li>
+                        <li>Filtrar y ordenar los productos por
                         categoría, marca, precio y otros criterios. </li>
                         <li>Ver detalles de los productos, como imágenes, descripciones,
                         especificaciones y disponibilidad. </li>
                         <li>Agregar productos al carrito de compra y ver el total de la compra. </li>
+                        <li>Se pueden agregar productos a favoritos y desde ahi mismo agregarlos al carrito.</li>
                         <li>Realizar compras seguras y confiables utilizando diferentes métodos
-                        de pago, como tarjetas de crédito y débito. </li>
+                        de pago, como tarjetas de crédito y débito a traves de Mercado Pago. </li>
                         <li>Logearse mediante auth0 y google, con las funciones de actualizar los
                         datos del usuario incluyendo un boton para el Logout.</li>
-                        <li>Cuenta con dashboard, borrado lógico,
-                        estadísticas, control de stock, favoritos, entre otras
-                        funcionalidades.</li>
+                        <li>Cuenta con dashboard para administrador con borrado lógico,
+                        estadísticas, control de stock.</li>
+                        <li>Posee review de los productos.</li>
                       
                     </p>
                   </div>
@@ -226,13 +233,21 @@
                   Deploy
                 </a>
                 <a
+                rel="noreferrer"
+                target="_blank"
+                class="cta-btn cta-btn--hero"
+                href="https://www.youtube.com/watch?v=MXasOkVTD20&t=17s"
+              >
+                Video
+              </a>
+                <!-- <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
                   href="https://www.youtube.com/watch?v=MXasOkVTD20&t=17s"
                 >
                   Video
-                </a>
+                </a> -->
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
