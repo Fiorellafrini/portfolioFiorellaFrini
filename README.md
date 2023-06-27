@@ -1,7 +1,7 @@
 # Portfolio Fiorella Frini 
 Desarrolladora Full Stack
 
-## Características 💡
+
 * Seccion sobre mi!.
 * Sección de habilidades.
 * Sección de proyectos.
