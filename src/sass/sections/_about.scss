@@ -126,24 +126,27 @@
   width: 180px;
   padding: 10px;
   margin: 8px;
-  background-color: #53ba83;
+  background-color: #f7f3cf;
   border-radius: 8px;
   text-align: center;
-  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  transition: background-color 0.9s ease, transform 0.9s ease, box-shadow 0.9s ease;
 }
 
 .skill-card:hover {
-  background-color: #9fd86b;
-  border-color: #095169;
+  background-color: #36cecc;
+  // border-color: #095169;
   transform: scale(1);
   box-shadow: 0 0 10px #0c0636(0, 0, 0);
   border-width: 2px;
-  border-style:groove;
+  // border-style:groove;
+  box-shadow:  2px 2px rgba(255, 255, 255, 0);
+
 }
 
 .skill-card h3 {
   font-size: 15px;
   margin-bottom: 7px;
+  color: #176585;
   // transition: color 0.3s ease;
 }
 
@@ -153,30 +156,30 @@
 
 
 .container {
-  max-width: 800px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-/* Estilos de las tarjetas de habilidades */
-.skill-card {
-  flex-basis: calc(33.33% - 20px);
-  background-color: #fff;
-  border-radius: 4px;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.skill-card h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.skill-card p {
-  color: #777;
-  font-size: 14px;
-  line-height: 1.4;
-}
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    
+    /* Estilos de las tarjetas de habilidades */
+    .skill-card {
+      flex-basis: calc(33.33% - 20px);
+      background-color: #c2e4cb;
+      border-radius: 4px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgb(255, 255, 255);
+    }
+    
+    .skill-card h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    
+    .skill-card p {
+      color: #585757;
+      font-size: 14px;
+      line-height: 1.4;
+    }
