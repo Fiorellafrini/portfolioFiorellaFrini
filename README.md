@@ -1,5 +1,11 @@
+# Portfolio Fiorella Frini 
+Desarrolladora Full Stack
 
-## Features
+
+* Seccion sobre mi!.
+* Sección de habilidades.
+* Sección de proyectos.
+* Sección de contacto.
 
 ⚡️ Modern UI Design + Reveal Animations\
 ⚡️ One Page Layout\
@@ -9,9 +15,7 @@
 ⚡️ Optimized with Parcel\
 ⚡️ Well organized documentation
 
-
-## Technologies used 🛠️
-
+## Tecnologias usadas 🛠️
 - [Parcel](https://parceljs.org/) - Bundler
 - [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - Frontend component library
 - [Sass](https://sass-lang.com/documentation) - CSS extension language
