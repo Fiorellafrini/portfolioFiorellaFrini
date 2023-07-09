@@ -15,6 +15,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="styles.scss" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
     <script
       defer
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
@@ -87,12 +89,126 @@
                 >
                   CV
                 </a>
+                <button class="mas4" onclick="mostrarModal4()"> Más sobre mí </button>
               </span>
+              <br />
             </div>
+
+            <div class="modal4" id="modal4">
+              <div class="modal4-content">
+                <span class="cerrar4" onclick="cerrarModal4()">&times;</span>
+                <div class="modal4-content4__container">
+                  <div class="modal4-content4__text">
+                <p class="mb-4">
+                  Realice esta seccion porque creo que ante todo, somos personas
+                  que vamos a compartir muchas horas de nuestra vida
+                  juntos...trabajando...hacia los mismo objetivos. Por lo cual me
+                  gusta la idea de pertenecer a un equipo que crea que lo mas
+                  importante...además del conocimiento... es el respeto, el
+                  compañerismo y el buen clima laboral.
+                  <br /><br />
+                  Les cuento un poco sobre mí... Soy una persona soñadora,
+                  emprendedora, que piensa en grande... me gusta mucho el
+                  movimiento y la naturaleza. En mis tiempos libres hago trekking,
+                  ciclismo o stand up paddle (Tuve 8 años una escuela de Stand up
+                  paddle, el cual me trajo grandes satisfacciones y momentos muy
+                  felices!). También me encanta leer, viajar y aprender cosas
+                  nuevas!
+                  <br /><br />
+                  La tecnología siempre me gustó y me interesó. Por lo cual,
+                  cuando me sumergí en este mundo por completo fue con el deseo de
+                  que podía trabajar de forma remota, desde cualquier parte del
+                  mundo y teniendo de oficina los mejores paisajes. Hoy descubrí
+                  que se sumó a mi lista de pasiones y encontré un gran equilibrio
+                  en mi vida entre la programación, el movimiento y la naturaleza.
+                </p>
+               
+             
+            </div>
+
+            <div class="modal4-content4__image">
+
+              <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            
+                <!-- Imágenes del carrusel -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/fiore2.jpg" alt="Imagen 1" class="fiore" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/fiore3.jpg" alt="Imagen 2" class="fiore" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/fiore4.jpg" alt="Imagen 3" class="fiore" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/fiore5.jpg" alt="Imagen 3" class="fiore" />
+                  </div>
+                  <!-- Añade más elementos carousel-item para cada imagen adicional -->
+                </div>
+            
+                <!-- Controles de navegación -->
+<a class="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev" onclick="activarPrev()">
+  <span class="carousel-control-prev-icon custom-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Anterior</span>
+</a>
+<a class="carousel-control-next" href="#carouselExample" role="button" data-bs-slide="next" onclick="activarNext()">
+  <span class="carousel-control-next-icon custom-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Siguiente</span>
+</a>
+
+              </div>
+         
+          
+              <!-- <img src="assets/fiore2.jpg" alt="Descripción de la imagen" class="fiore" /> -->
+              </div>
+            </div>
+            <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn text-color-main"
+            href="https://www.instagram.com/fiorellafrini/"
+          >
+         
+          <img src="assets/i3.png" alt="Descripción de la imagen" class="insta" />
+
+        
+        </a>
+          </div>
+        </div>
+            <script>
+              function mostrarModal4() {
+                var modal = document.getElementById("modal4");
+                modal.style.display = "block";
+              }
+    
+              function cerrarModal4() {
+                var modal = document.getElementById("modal4");
+                modal.style.display = "none";
+              }
+            </script>
+                 <script>
+                function activarPrev() {
+                  var carousel = document.querySelector("#carouselExample");
+                  var carouselInstance = bootstrap.Carousel.getInstance(carousel);
+                  carouselInstance.prev();
+                }
+              
+                function activarNext() {
+                  var carousel = document.querySelector("#carouselExample");
+                  var carouselInstance = bootstrap.Carousel.getInstance(carousel);
+                  carouselInstance.next();
+                }
+              </script>
+              
           </div>
         </div>
       </div>
     </section>
+    
+
+
+
 
 <br></br>
 
@@ -335,6 +451,7 @@
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">App Dogs!</h3>
                 <hr></hr>
+                
                 <div>
                   <p class="mb-4">
                     ◼ La App cuenta con búsqueda de razas de perros, características, detalles, filtros, y creación de razas. Deploy con Railway y Vercel.
@@ -353,7 +470,8 @@
                     <p class="mb-4">
                     
                       <h2>La página web App Dogs! es capaz de: </h2>
-                      <br></br>
+        <hr></hr>
+
                         <li>Explorar razas de perros, con caracteristicas como peso, altura, temperamento, origen,tiempo de vida.</li>
                         <li>Cuenta con barra de busqueda de razas.</li>
                         <li>Filtrar por temperamentos, por origen. Ordenar por nombre y peso. Los filtros se pueden combinar.</li>
