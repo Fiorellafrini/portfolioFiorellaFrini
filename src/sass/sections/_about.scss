@@ -1,5 +1,4 @@
 #about {
-
   background-color: $primary-color;
   background-image: linear-gradient(
     135deg,
@@ -152,3 +151,32 @@
 
 
 
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Estilos de las tarjetas de habilidades */
+.skill-card {
+  flex-basis: calc(33.33% - 20px);
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.skill-card p {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.4;
+}
