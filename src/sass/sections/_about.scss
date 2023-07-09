@@ -202,7 +202,7 @@
 
 
 .skill-card {
-  width: 180px;
+  width: 210px;
   padding: 10px;
   margin: 8px;
   background-color: #f7f3cf;
@@ -222,10 +222,14 @@
 
 }
 
+
 .skill-card h3 {
   font-size: 15px;
   margin-bottom: 8px;
   color: #176585;
+  // margin-right: 45px;
+  // margin-left: -6px;
+  // text-align: center;
   // transition: color 0.3s ease;
 }
 
@@ -237,7 +241,7 @@
 .container {
       max-width: 800px;
       margin: 0 auto;
-      display: flex;
+      // display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
     }
