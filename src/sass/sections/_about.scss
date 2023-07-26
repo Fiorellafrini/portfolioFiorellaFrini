@@ -80,7 +80,7 @@
   .modal4 {
     display: none;
     position: fixed;
-    z-index: 2;
+    z-index: 9999;
     left: 0;
     top: 0;
     width: 100%;
@@ -268,4 +268,55 @@
     }
 
 
-  
+    .navBar {
+      font-size: 120%;
+      color: #07ae8a;
+      /* color: white; */
+      text-decoration-line: none;
+      font-weight: 900;
+      padding-right: 25px;
+      padding-left: 2px;
+    }
+    
+    .navBar:hover,
+    .navBar.active {
+      color: #003f3a;
+    }
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px 15px;
+      background: whitesmoke;
+      /* background: linear-gradient(to right, #0befbd, #027959); */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+    }
+
+    .logo {
+      width: 4em;
+      height: 3em;
+      border-radius: 5%;
+      // font-size: 6%;
+      // font-weight: 850;
+      // text-decoration: none;
+      // color: #07ae8a;
+      /* color: white; */
+      // text-decoration-line: none;
+      // padding-left: 3%;
+    }
+    .nombre {
+      // width: 4em;
+      // height: 3em;
+      border-radius: 5%;
+      // font-size: 6%;
+      // font-weight: 850;
+      text-decoration: none;
+      color: #000000;
+      // text-decoration-line: none;
+      // padding-left: 3%;
+      top: 2rem;
+    }
