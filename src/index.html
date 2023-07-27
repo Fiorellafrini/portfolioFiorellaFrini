@@ -4,7 +4,8 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="assets/favicon2.png" />
+    <link rel="shortcut icon" type="image/png" href="assets/letra-f.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" />
 
     <title>Fiorella Frini | Developer</title>
     <meta name="keywords" content="Fiore, Fiorella, skill" />
@@ -31,13 +32,31 @@
   </head>
 
   <body>
-    <div id="top"></div>
-
 
     <div class="header">
+      <a class="nombre" href="#hero">
+        <img class="logo" src="./assets/letra-f.png" alt="" />
+      </a>
+    
+      <nav>
+        <a href="#hero" class="navBar">Inicio</a>
+        <a href="#about" class="navBar">Sobre mi</a>
+        <a href="#skills" class="navBar">Habilidades</a>
+        <a href="#projects" class="navBar">Proyectos</a>
+        <a href="#contact" class="navBar">Contacto</a>
+      </nav>
+    
+      <button class="navbar-toggler collapsed" type="button" onclick="toggleNav()">
+        <span class="navbar-toggler-icon">Menu</span>
+      </button>
+      
+ 
+    </div>
+    
+
+    <!-- <div class="header">
       <a class="nombre">
         <img  class="logo" src="./assets/letra-f.png" alt="" />
-        <!-- Fiorella Frini -->
       </a>
 
       <nav>
@@ -47,13 +66,13 @@
         <a href="#projects" class="navBar">Projectos</a>
         <a href="#contact" class="navBar">Contacto</a>
       </nav>
-    </div>
+    </div> -->
 
     <!-- **** Hero Section **** -->
     <section id="hero" class="jumbotron">
       <div class="container">
-        <h1 class="hero-title load-hidden">
-          Hola, mi nombre es <span class="text-color-main">Fiorella Frini</span>
+        <h1 class="hero-titles">
+          Hola, mi nombre es <span class="text">Fiorella Frini</span>
           <br />
           Soy desarrolladora Full Stack.
         </h1>
@@ -688,6 +707,19 @@
 
       </div>
     </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      function toggleNav() {
+        console.log("ToggleNav() se ejecutó");
+        var navBar = document.querySelector('nav');
+        navBar.classList.toggle('show');
+      }
+    </script>
+    
+    <script defer type="module" src="index.js"></script>
+    
 
     <script defer type="module" src="index.js"></script>
   </body>
