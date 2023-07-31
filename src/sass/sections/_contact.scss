@@ -52,3 +52,76 @@
     }
   }
 }
+
+
+/* Estilos generales del formulario */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #dd2663;
+  
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #dd2663;
+
+  // background-color: #45a049;
+}
+
+/* Estilos adicionales si lo deseas */
+.section-title {
+  color: #dd2663;
+}
+
+.social-links {
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  margin-right: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.contact-wrapper__text {
+  // color: #dd2663;
+
+  color: #777;
+}
+
+
+h3{
+  color:#333333af;
+}
