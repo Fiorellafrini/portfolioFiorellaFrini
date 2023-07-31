@@ -33,11 +33,23 @@
 
   <body>
 
+ 
+
     <div class="header">
       <a class="nombre" href="#hero">
         <img class="logo" src="./assets/letra-f.png" alt="" />
       </a>
+      <button 
+      class="navbar-toggler collapsed"
+       type="button" 
+       data-bs-toggle="collapse" 
+       data-bs-target="#menu-desplegable" aria-controls="menu-desplegable"
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+        <!-- Menu -->
+      </button>
     
+    <!-- <div class="collapse navbar-collapse" id="menu-desplegable"> -->
       <nav>
         <a href="#hero" class="navBar">Inicio</a>
         <a href="#about" class="navBar">Sobre mi</a>
@@ -45,28 +57,9 @@
         <a href="#projects" class="navBar">Proyectos</a>
         <a href="#contact" class="navBar">Contacto</a>
       </nav>
+    <!-- </div> -->
+  </div>
     
-      <button class="navbar-toggler collapsed" type="button" onclick="toggleNav()">
-        <span class="navbar-toggler-icon">Menu</span>
-      </button>
-      
- 
-    </div>
-    
-
-    <!-- <div class="header">
-      <a class="nombre">
-        <img  class="logo" src="./assets/letra-f.png" alt="" />
-      </a>
-
-      <nav>
-        <a href="#hero" class="navBar">Inicio</a>
-        <a href="#about" class="navBar">Sobre mi</a>
-        <a href="#skills" class="navBar">Habilidades</a>
-        <a href="#projects" class="navBar">Projectos</a>
-        <a href="#contact" class="navBar">Contacto</a>
-      </nav>
-    </div> -->
 
     <!-- **** Hero Section **** -->
     <section id="hero" class="jumbotron">
